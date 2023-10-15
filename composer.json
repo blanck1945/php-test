@@ -1,0 +1,23 @@
+{
+    "name": "root/www",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Okubo"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Core\\": "Core/",
+            "Controller\\": "Controller/",
+            "Core\\AutoLoad\\": "Core/Autoload",
+            "Routes\\": "Routes",
+            "Services\\": "Services",
+            "Middlewares\\": "Middlewares"
+        }
+    }
+}
